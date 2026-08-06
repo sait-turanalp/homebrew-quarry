@@ -7,17 +7,17 @@ class Quarry < Formula
   on_macos do
     on_arm do
       url "https://github.com/sait-turanalp/quarry/releases/download/v0.1.1/quarry-0.1.1-macos-arm64.tar.xz"
-      sha256 "4fdaeeb94799a59a81b7ffd4b36b2d177ea3188f8cdaafeba5ca04cae427fa90"
+      sha256 "2fc409c1e3ecb37807fd9c319d75c77818dcb1417cd3ce2abb030a6a995f5943"
     end
     on_intel do
       url "https://github.com/sait-turanalp/quarry/releases/download/v0.1.1/quarry-0.1.1-macos-x64.tar.xz"
-      sha256 "e42df9264df4500f1eef1e903f5556774e41cb42a39a5d6175ac24d15511163e"
+      sha256 "07ebcf449dd1814bb3be4bba988628e028f40c845be1f9f7b01e915f2ff3e971"
     end
   end
 
   on_linux do
     url "https://github.com/sait-turanalp/quarry/releases/download/v0.1.1/quarry-0.1.1-linux-x64.tar.xz"
-    sha256 "86fb703deb50150edd6c606d1f774f2099b9ff09a813e65ee9c5ae9fae0dff19"
+    sha256 "4fdaeeb94799a59a81b7ffd4b36b2d177ea3188f8cdaafeba5ca04cae427fa90"
   end
 
   def install
